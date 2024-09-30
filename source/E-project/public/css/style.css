@@ -717,7 +717,6 @@ body {
     border-radius: 5px;
 }
 
-
-.two-links:hover {
-    background-color: black;
+.opacity:hover {
+    opacity: 0.5;
 }
