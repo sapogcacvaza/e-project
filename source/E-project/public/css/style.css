@@ -616,3 +616,72 @@ body {
     height: 10px;
     background-color: #000;
 }
+
+/* lonely path start */
+
+.lonely-product {
+    padding: 80px 0;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    max-width: 80%;
+    margin-top: 15px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.lonely-name {
+    font-family: Unica One, sans-serif;
+    font-weight: 400;
+    font-size: 3.75em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background-color: #006eff;
+}
+
+.lonely-price {
+    font-size: 1.25em;
+    font-family: Karla, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #666;
+}
+
+.btn-add {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    white-space: normal;
+    border-radius: 3px;
+    font-size: .8125em;
+    font-weight: 700;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    border: 1px solid #006eff;
+    color: #006eff;
+    background-color: #fff;
+    width: 80%;
+}
+
+.btn-minus .btn-plus {
+    border: 1px solid gray;
+}
+
+.lonely-more {
+    margin-top: 30px;
+}
+
+.lonely-view {
+    margin-top: 50px;
+}
+
+.lonely-icons {
+    font-size:larger;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.lonely-links {
+    margin-top: 50px;
+}

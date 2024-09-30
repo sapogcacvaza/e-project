@@ -36,7 +36,7 @@ export default function Home_2() { // carousel
                                                     omnis, aperiam, cupiditate in eaque ipsa hic pariatur fugiat aliquam. Doloribus laboriosam maiores quo dolor vel!
                                                 </p>
                                                 <h5 className="text-black">Nguyen Van Dan</h5>
-                                                <h6 className="text-black">Web developer</h6>
+                                                <h6 className="text-black">- Customer -</h6>
                                             </div>
                                         </div>
                                         <div class="carousel-item" data-bs-interval="3000">
@@ -54,7 +54,7 @@ export default function Home_2() { // carousel
                                                     omnis, aperiam, cupiditate in eaque ipsa hic pariatur fugiat aliquam. Doloribus laboriosam maiores quo dolor vel!
                                                 </p>
                                                 <h5 className="text-black">Hoang Thanh Hai</h5>
-                                                <h6 className="text-black">Web developer</h6>
+                                                <h6 className="text-black">- Customer -</h6>
                                             </div>
                                         </div>
                                         <div class="carousel-item" data-bs-interval="3000">
@@ -72,7 +72,7 @@ export default function Home_2() { // carousel
                                                     omnis, aperiam, cupiditate in eaque ipsa hic pariatur fugiat aliquam. Doloribus laboriosam maiores quo dolor vel!
                                                 </p>
                                                 <h5 className="text-black">Nguyen Duy Linh</h5>
-                                                <h6 className="text-black">Web developer</h6>
+                                                <h6 className="text-black">- Customer -</h6>
                                             </div>
                                         </div>
                                     </div>
