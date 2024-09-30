@@ -1,28 +1,88 @@
+import { Image } from "react-bootstrap"
+
 export default function Home_2() { // carousel
 
     return (
         <>
-            <div className="container-fluid py-5 mb-5  ">
-                <div className="container py-5">
-                    <div className="row g-5 align-items-center">
-                        <div className="col-md-12 col-lg-5">
-                            <img src="img/homeImage/sofa1.jpg" className="img-fluid w-100 h-150 bg-secondary rounded" alt="First slide" />
+            <div className="wrapper">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-12 col-md-12 col-lg-12">
+                            <div className="section-header text-center">
+                                <h2 className="text-black">Testimonials</h2>
+                            </div>
                         </div>
-                        <div className="col-md-12 col-lg-7">
-                            <h1 className="mb-4 display-5 text-dark">HOME IS THE SOURCE OF ALL HAPPINESS</h1>
-                            <p>DEAR
-                                THE CORE VALUES THAT LE GIA WOODEN FURNITURE BRINGS TO YOU
-                                Mentioning home is mentioning a sacred and cozy place, a place where everyone wants to return to enjoy a sense of peace, a sense of togetherness, leaving the hardships of life outside the door.
-
-                                We, LE GIA WOODEN FURNITURE, always want to bring you a space where you feel "this is truly my beloved place!" And with that wish, we strive every day to understand you and bring you products that create true living values.</p>
-
-                            <a href="/contact" type="submit" className="btn btn-dark border-2 rounded-pill text-white h-150">Contact Now</a>
-
+                        <div className="col-sm-12 col-md-12 col-lg-12">
+                            <div className="section-header text-center">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">2</button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">3</button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="3000">
+                                            <div className="content text-center">
+                                                <div className="icon-area animated zoomIn" style={{ animationDelay: "1s" }}>
+                                                    <i className="fa fa-quote-right text-black"></i>
+                                                </div>
+                                                <div className="img-area animated zoomIn" style={{ animationDelay: "1s" }}>
+                                                    <Image src="img/avatar.jpg" />
+                                                </div>
+                                                <p className="text-black">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo perferendis corrupti aliquam ad. Perferendis nihil
+                                                    delectus iste voluptate voluptatum vitae totam dolores rerum, aspernatur quidem explicabo vero eos architecto
+                                                    maxime!
+                                                    Tempore excepturi aspernatur dolorum neque saepe officia vel repellendus eligendi odit reprehenderit unde debitis
+                                                    omnis, aperiam, cupiditate in eaque ipsa hic pariatur fugiat aliquam. Doloribus laboriosam maiores quo dolor vel!
+                                                </p>
+                                                <h5 className="text-black">Nguyen Van Dan</h5>
+                                                <h6 className="text-black">Web developer</h6>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="3000">
+                                            <div className="content text-center">
+                                                <div className="icon-area animated zoomIn" style={{ animationDelay: "1s" }}>
+                                                    <i className="fa fa-quote-right text-black"></i>
+                                                </div>
+                                                <div className="img-area animated zoomIn" style={{ animationDelay: "2s" }}>
+                                                    <Image src="img/avatar.jpg" />
+                                                </div>
+                                                <p className="text-black">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo perferendis corrupti aliquam ad. Perferendis nihil
+                                                    delectus iste voluptate voluptatum vitae totam dolores rerum, aspernatur quidem explicabo vero eos architecto
+                                                    maxime!
+                                                    Tempore excepturi aspernatur dolorum neque saepe officia vel repellendus eligendi odit reprehenderit unde debitis
+                                                    omnis, aperiam, cupiditate in eaque ipsa hic pariatur fugiat aliquam. Doloribus laboriosam maiores quo dolor vel!
+                                                </p>
+                                                <h5 className="text-black">Hoang Thanh Hai</h5>
+                                                <h6 className="text-black">Web developer</h6>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="3000">
+                                            <div className="content text-center">
+                                                <div className="icon-area animated zoomIn" style={{ animationDelay: "1s" }}>
+                                                    <i className="fa fa-quote-right text-black"></i>
+                                                </div>
+                                                <div className="img-area animated zoomIn" style={{ animationDelay: "2s" }}>
+                                                    <Image src="img/avatar.jpg" />
+                                                </div>
+                                                <p className="text-black">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo perferendis corrupti aliquam ad. Perferendis nihil
+                                                    delectus iste voluptate voluptatum vitae totam dolores rerum, aspernatur quidem explicabo vero eos architecto
+                                                    maxime!
+                                                    Tempore excepturi aspernatur dolorum neque saepe officia vel repellendus eligendi odit reprehenderit unde debitis
+                                                    omnis, aperiam, cupiditate in eaque ipsa hic pariatur fugiat aliquam. Doloribus laboriosam maiores quo dolor vel!
+                                                </p>
+                                                <h5 className="text-black">Nguyen Duy Linh</h5>
+                                                <h6 className="text-black">Web developer</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
                 </div>
-            </div>
+            </div >
+
         </>
     )
 }
