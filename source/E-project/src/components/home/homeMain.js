@@ -11,6 +11,7 @@ export default function homeMain() {
     return (
         <div>
             <Home_1 />
+            <Home_4 />
             <Home_3 />
             <Home_2 />
         </div>
