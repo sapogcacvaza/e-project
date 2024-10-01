@@ -152,13 +152,13 @@ export default function Shop_1() {
                                                     pageCount={totalProduct}
                                                     previousLabel="<"
                                                     pageClassName="page-item"
-                                                    pageLinkClassName="page-link bg-hotgreen border-white text-black"
+                                                    pageLinkClassName="page-link bg-blue border-white text-white"
                                                     previousClassName="page-item"
-                                                    previousLinkClassName="page-link bg-hotgreen border-white text-black"
+                                                    previousLinkClassName="page-link bg-blue border-white text-white"
                                                     nextClassName="page-item"
-                                                    nextLinkClassName="page-link bg-hotgreen border-white text-black"
+                                                    nextLinkClassName="page-link bg-blue border-white text-white"
                                                     breakClassName="page-item"
-                                                    breakLinkClassName="page-link bg-hotgreen border-white text-black"
+                                                    breakLinkClassName="page-link bg-blue border-white text-white"
                                                     containerClassName="pagination"
                                                     activeClassName="active"
                                                 />

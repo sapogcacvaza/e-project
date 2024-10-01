@@ -25,15 +25,10 @@ function App() {
         <Route path='/search/' element={<Search />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/about' element={<About />} />
-
         <Route path="shop/category/:categoryId" element={<CategoryShop />} />
-
         <Route path='/login' element={<Login />} />
-
       </Routes>
       <Footer />
-
-
     </div>
   );
 }
