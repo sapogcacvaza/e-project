@@ -8,7 +8,7 @@ import ShopDetail from './components/shopDetail';
 import Search from './components/search/searchMain';
 import { Route, Routes } from 'react-router-dom';
 import Footer from './components/footer';
-
+import CategoryShop from './components/categoryShop/categoryShop';
 import Contact from './components/contact_us/contact';
 import About from './components/about/about';
 
@@ -25,7 +25,11 @@ function App() {
         <Route path='/search/' element={<Search />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/about' element={<About />} />
+
+        <Route path="shop/category/:categoryId" element={<CategoryShop />} />
+
         <Route path='/login' element={<Login />} />
+
       </Routes>
       <Footer />
 

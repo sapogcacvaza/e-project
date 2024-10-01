@@ -19,10 +19,10 @@ export default function Navbar() {
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><Link to={'/shop'} class="dropdown-item">All</Link></li>
-                                    <li><Link to={'/'} class="dropdown-item">Calendars</Link></li>
-                                    <li><Link to={'/'} class="dropdown-item" href="#">Diaries</Link></li>
-                                    <li><Link to={'/'} class="dropdown-item" href="#">Notebook</Link></li>
-                                    <li><Link to={'/'} class="dropdown-item" href="#">Journals</Link></li>
+                                    <li><Link to={'shop/category/1'} class="dropdown-item">Calendars</Link></li>
+                                    <li><Link to={'shop/category/2'} class="dropdown-item" href="#">Diaries</Link></li>
+                                    <li><Link to={'shop/category/3'} class="dropdown-item" href="#">Notebook</Link></li>
+                                    <li><Link to={'shop/category/4'} class="dropdown-item" href="#">Journals</Link></li>
                                 </ul>
                             </li>
                             <Link to={'/contact'} className="nav-item nav-link text-white ">Contact Us</Link>
