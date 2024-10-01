@@ -1,16 +1,16 @@
+import { Image } from "react-bootstrap"
+
 export default function Home_5() { //Fact 
     return (
         <>
-            <div className="container-fluid py-5 mb-5  ">
-                <div className="container py-5">
-                    <div className="row g-5 align-items-center">
-                        <div className="col-md-12 col-lg-7" style={{ position: 'relative' }} >
-                            <img src="img/homeImage/banner1.jpg" className="img-fluid w-100 h-150 bg-secondary rounded" alt="First slide" />
-                        </div>
-                        <div className="col-md-12 col-lg-5">
-                            <h1 className="mb-4 display-5 text-dark">SOPHISTICATED INTERIOR</h1>
-                            <p className="py-3">With over 24 years of experience in interior finishing, Nha Xinh offers comprehensive solutions including design, decoration and providing complete interior. With a professional team and a system of 10 stores, Nha Xinh is the choice for sophisticated and modern spaces.</p>
-                            <a href="/about" type="submit" className="btn btn-dark border-2 rounded-pill text-white h-150">About Us</a>
+            <div className="newsletter">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <h1 className="text-black h1-newsletter">Subscribe to our newsletter</h1>
+                            <p className="text-black d-flex justify-content-center mt-4 mb-4">Promotions, new products and sales. Directly to your inbox.</p>
+                            <input className="input-newsletter border-2 border-black py-3 px-4 rounded-pill" type="text" placeholder="Your Email" />
+                            <button type="submit" className="btn btn-secondary   border-1 border-white py-3 px-4 position-absolute rounded-pill text-black" style={{ top: '0', right: '0' }}><i class="bi bi-chevron-right"></i></button>
                         </div>
                     </div>
                 </div>
