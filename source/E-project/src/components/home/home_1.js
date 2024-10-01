@@ -16,29 +16,29 @@ export default function Home_1() { // carousel
                         <div class="carousel-item active">
                             <img src="img/banner/banner2.webp" className="img-fluid w-100 h-150 bg-secondary" alt="First slide" />
                             <div class="carousel-caption top-0 mt-5 d-none d-md-block">
-                                <h1 className="text-white mt-5 text-uppercase">First slide label</h1>
+                                <h1 className="text-white mt-5 text-uppercase">Flowers Collection</h1>
                                 <button className="btn btn-carousel px-4 py-2 fs-5 mt-5 text-white">Buy Now</button>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="img/banner/banner1.webp" className="img-fluid w-100 h-150" alt="Second slide" />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h1>First slide label</h1>
-                                <button className="btn btn-primary">Buy Now</button>
+                            <div class="carousel-caption top-0 mt-5 d-none d-md-block">
+                                <h1 className="text-white mt-5 text-uppercase">Miles - Campbell Collection</h1>
+                                <button className="btn btn-carousel px-4 py-2 fs-5 mt-5 text-white">Buy Now</button>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/banner/banner2.webp" className="img-fluid w-100 h-150" alt="Third slide" />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h1>First slide label</h1>
-                                <button className="btn btn-primary">Buy Now</button>
+                            <img src="img/banner/banner3.webp" className="img-fluid w-100 h-150" alt="Third slide" />
+                            <div class="carousel-caption top-0 mt-5 d-none d-md-block">
+                                <h1 className="text-white mt-5 text-uppercase">Military Calendars</h1>
+                                <button className="btn btn-carousel px-4 py-2 fs-5 mt-5 text-white">Buy Now</button>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="img/banner/banner1.webp" className="img-fluid w-100 h-150" alt="Fourth slide" />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h1>First slide label</h1>
-                                <button className="btn btn-primary">Buy Now</button>
+                            <div class="carousel-caption top-0 mt-5 d-none d-md-block">
+                                <h1 className="text-white mt-5 text-uppercase">Miles - Campbell Collection</h1>
+                                <button className="btn btn-carousel px-4 py-2 fs-5 mt-5 text-white">Buy Now</button>
                             </div>
                         </div>
                     </div>
