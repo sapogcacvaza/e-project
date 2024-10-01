@@ -128,15 +128,15 @@ export default function Shop_1() {
                                             <div className="col-md-3" key={item.id}>
                                                 <div className="rounded position-relative fruite-item">
                                                     <div className="fruite-img">
-                                                        <Link to={`http://localhost:3000/shop-detail/${item.id}`}><img src={item.img} className="img w-100 rounded-top" alt="" style={{ height: "200px" }} /></Link>
+                                                        <Link to={`http://localhost:3000/shop-detail/${item.id}`}><img src={item.img} className="img w-100 h-200 rounded-top" alt="" style={{ height: "200px" }} /></Link>
                                                     </div>
                                                     <div className="text-white bg-danger px-3 py-1 rounded position-absolute" style={{ top: '10px', left: '10px' }}>Sale {generateRandomDiscount()}%</div>
                                                     <div className="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                        <h4 className="text-hotgreen">{item.name}</h4>
-                                                        <p className="text-hotgreen text-truncate">{item.description}</p>
+                                                        <h4 className="text-black">{item.name}</h4>
+                                                        <p className="text-black text-truncate">{item.description}</p>
                                                         <div className="d-flex justify-content-between flex-lg-wrap">
-                                                            <p className="text-hotgreen fs-5 fw-bold mb-0">${item.price}</p>
-                                                            <Link to={`http://localhost:3000/shop-detail/${item.id}`} className="btn bg-hotgreen px-3 text-white"><i class="bi bi-eye-fill"></i> View Detail</Link>
+                                                            <p className="text-black fs-5 fw-bold mb-0">${item.price}</p>
+                                                            <Link to={`http://localhost:3000/shop-detail/${item.id}`} className="btn bg-blue px-3 text-white"><i class="bi bi-eye-fill"></i> View Detail</Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -152,13 +152,13 @@ export default function Shop_1() {
                                                     pageCount={totalProduct}
                                                     previousLabel="<"
                                                     pageClassName="page-item"
-                                                    pageLinkClassName="page-link bg-hotgreen border-white text-white"
+                                                    pageLinkClassName="page-link bg-hotgreen border-white text-black"
                                                     previousClassName="page-item"
-                                                    previousLinkClassName="page-link bg-hotgreen border-white text-white"
+                                                    previousLinkClassName="page-link bg-hotgreen border-white text-black"
                                                     nextClassName="page-item"
-                                                    nextLinkClassName="page-link bg-hotgreen border-white text-white"
+                                                    nextLinkClassName="page-link bg-hotgreen border-white text-black"
                                                     breakClassName="page-item"
-                                                    breakLinkClassName="page-link bg-hotgreen border-white text-white"
+                                                    breakLinkClassName="page-link bg-hotgreen border-white text-black"
                                                     containerClassName="pagination"
                                                     activeClassName="active"
                                                 />
