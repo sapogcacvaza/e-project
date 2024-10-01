@@ -120,89 +120,40 @@ export default function Shop_1() {
 
     return (
         <>
-            <div className="container-fluid fruite py-5">
+            <div className="container-fluid fruite">
                 <div className="container py-6">
                     <div className="row g-4 py-6">
                         <div className="col-lg-12">
                             <div className="row g-4">
                                 <div className="col-xl-3">
-                                    <form className="input-group w-100 mx-auto d-flex py-6" onSubmit={event => {
-                                        event.preventDefault();
-                                        const keyword = event.target.keyword.value;
-                                        localStorage.setItem('searchKeyword', keyword);
-                                        navigate(`/search?query=${encodeURIComponent(keyword)}`, { replace: true });
-                                    }}>
-                                        <input type="text" className="form-control" placeholder="Search" aria-describedby="search-icon-1" name="keyword" />
-                                        <button id="search-icon-1" className="btn-dark input-group-text p-3 text-white "><i className="fa fa-search"></i></button>
-                                    </form>
-                                </div>
-                                <div className="col-6"></div>
-                                <div className="col-xl-3 py-6">
                                     <form className="bg-white ps-3 border-2 py-3 rounded d-flex justify-content-between mb-4" onChange={handleSortChange}>
                                         <label htmlFor="fruits">Showing:</label>
                                         <select id="fruits" name="fruitlist" className="border-0 form-select-sm bg-light me-3">
                                             <option value="">Default</option>
-                                            <option value="-price">Price (High to Low)</option>
-                                            <option value="price">Price (Low to High)</option>
-                                            <option value="name">Name (A to Z)</option>
-                                            <option value="-name">Name (Z to A)</option>
+                                            <option value="-price">Price, high to low</option>
+                                            <option value="price">Price, low to high</option>
+                                            <option value="name">Alphabetically, A-Z</option>
+                                            <option value="-name">Alphabetically, Z-A</option>
                                         </select>
                                     </form>
                                 </div>
                             </div>
                             <div className="row g-4">
-                                <div className="col-lg-3">
-                                    <div className="row g-4">
-                                        <div className="col-lg-12">
-                                            <div className="mb-3">
-                                                <h4>Categories</h4>
-                                                <ul className="list-unstyled fruite-categorie">
-                                                    <li>
-                                                        <div onClick={() => handleCategoryClick("All")} className="d-flex justify-content-between fruite-name">
-                                                            <Link onClick={() => handleCategoryClick("All")} className="text-dark tw-bold">All</Link>
-                                                        </div>
-                                                    </li>
-                                                    {cats.map((item, index) => (
-                                                        <li key={index}>
-                                                            <div
-                                                                onClick={() => handleCategoryClick(item.name)}
-                                                                className="d-flex justify-content-between fruite-name"
-                                                            >
-                                                                <Link onClick={() => handleCategoryClick(item.name)} className="text-dark">{item.name}</Link>
-                                                                <i class="bi bi-caret-down-fill"></i>
-                                                            </div>
-                                                            {openCategory === item.name && (
-                                                                <ul className="list-unstyled ps-4">
-                                                                    {item.products.map(product => (
-                                                                        <li className="d-flex justify-content-start" key={product.id}>
-                                                                            <Link className="text-dark" onClick={() => handleSubCategoryClick(product.name)}>{product.name}</Link>
-                                                                        </li>
-                                                                    ))}
-                                                                </ul>
-                                                            )}
-                                                        </li>
-                                                    ))}
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-9">
+                                <div className="col-lg-12">
                                     <div className="row g-4 justify-content-center">
                                         {currentItem.map(item => (
-                                            <div className="col-md-4" key={item.id}>
+                                            <div className="col-md-3" key={item.id}>
                                                 <div className="rounded position-relative fruite-item">
                                                     <div className="fruite-img">
                                                         <Link to={`http://localhost:3000/shop-detail/${item.id}`}><img src={item.img} className="img w-100 rounded-top" alt="" style={{ height: "200px" }} /></Link>
                                                     </div>
                                                     <div className="text-white bg-danger px-3 py-1 rounded position-absolute" style={{ top: '10px', left: '10px' }}>Sale {generateRandomDiscount()}%</div>
                                                     <div className="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                        <h4>{item.name}</h4>
-                                                        <p className="text-truncate">{item.description}</p>
+                                                        <h4 className="text-hotgreen">{item.name}</h4>
+                                                        <p className="text-hotgreen text-truncate">{item.description}</p>
                                                         <div className="d-flex justify-content-between flex-lg-wrap">
-                                                            <p className="text-dark fs-5 fw-bold mb-0">${item.price}</p>
-                                                            <Link to={`http://localhost:3000/shop-detail/${item.id}`} className="btn border border-secondary bg-dark rounded-pill px-3 text-white"><i className="fa fa-shopping-bag me-2 text-white"></i> View Detail</Link>
+                                                            <p className="text-hotgreen fs-5 fw-bold mb-0">${item.price}</p>
+                                                            <Link to={`http://localhost:3000/shop-detail/${item.id}`} className="btn bg-hotgreen px-3 text-white"><i class="bi bi-eye-fill"></i> View Detail</Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -218,13 +169,13 @@ export default function Shop_1() {
                                                     pageCount={totalProduct}
                                                     previousLabel="<"
                                                     pageClassName="page-item"
-                                                    pageLinkClassName="page-link bg-dark border-white text-white"
+                                                    pageLinkClassName="page-link bg-hotgreen border-white text-white"
                                                     previousClassName="page-item"
-                                                    previousLinkClassName="page-link bg-dark border-white text-white"
+                                                    previousLinkClassName="page-link bg-hotgreen border-white text-white"
                                                     nextClassName="page-item"
-                                                    nextLinkClassName="page-link bg-dark border-white text-white"
+                                                    nextLinkClassName="page-link bg-hotgreen border-white text-white"
                                                     breakClassName="page-item"
-                                                    breakLinkClassName="page-link bg-dark border-white text-white"
+                                                    breakLinkClassName="page-link bg-hotgreen border-white text-white"
                                                     containerClassName="pagination"
                                                     activeClassName="active"
                                                 />
