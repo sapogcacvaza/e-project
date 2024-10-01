@@ -247,6 +247,24 @@ export default function ShopDetail() {
                                                         words etc. Susp endisse ultricies nisi vel quam suscipit </p>
                                                 </div>
                                             </div>
+                                            <div className="d-flex">
+                                                <img src="/img/avatar.jpg" className="img-fluid rounded-circle p-3" style={{ width: '100px', height: '100px' }} alt="" />
+                                                <div className="">
+                                                    <p className="mb-2 text-black" style={{ fontSize: '14px' }}>August 05, 2024</p>
+                                                    <div className="d-flex justify-content-between">
+                                                        <h5 className="text-black">Dacob Presley</h5>
+                                                        <div className="d-flex mb-3">
+                                                            <i className="fa fa-star text-secondary"></i>
+                                                            <i className="fa fa-star text-secondary"></i>
+                                                            <i className="fa fa-star text-secondary"></i>
+                                                            <i className="fa fa-star text-secondary"></i>
+                                                            <i className="fa fa-star text-secondary"></i>
+                                                        </div>
+                                                    </div>
+                                                    <p className="text-black">The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic
+                                                        words etc. Susp endisse ultricies nisi vel quam suscipit </p>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div className="tab-pane" id="nav-vision" role="tabpanel">
                                             <p className="text-dark">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
