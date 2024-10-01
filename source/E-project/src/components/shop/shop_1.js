@@ -10,7 +10,7 @@ export default function Shop_1() {
     const [filteredProducts, setFilteredProducts] = useState([]);
     const [currentPage, setCurrentPage] = useState(0);
     const [totalProduct, setTotalProduct] = useState(0);
-    const [itemsPerPage] = useState(6);
+    const [itemsPerPage] = useState(8);
     const [selectedCategory, setSelectedCategory] = useState("All");
     const [openCategory, setOpenCategory] = useState(null);
 
@@ -81,23 +81,6 @@ export default function Shop_1() {
 
     const handleSortChange = (event) => {
         setSortOrder(event.target.value);
-    };
-
-    const handleCategoryClick = (category) => {
-        if (category === "All") {
-            // Khi nhấn vào "All", đặt lại selectedCategory và mở tất cả danh mục
-            setSelectedCategory("All");
-            setOpenCategory(null); // Đóng tất cả danh mục
-        } else {
-            // Xử lý nhấn vào danh mục lớn
-            setOpenCategory(openCategory === category ? null : category);
-            setSelectedCategory("All"); // Đặt lại khi mở danh mục lớn
-        }
-    };
-
-    const handleSubCategoryClick = (subCategory) => {
-        setSelectedCategory(subCategory);
-        setOpenCategory(null); // Đóng danh mục khi chọn một danh mục con
     };
 
     const indexOfLastItem = (currentPage + 1) * itemsPerPage;

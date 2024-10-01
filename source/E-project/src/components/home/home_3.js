@@ -11,7 +11,7 @@ export default function Home_3() { // Featurs
                             <Image src="img/banner/lonely.webp" className="" />
                         </div>
                         <div className="col-md-12 col-lg-7">
-                            <a className="lonely-name text-white" href="">British Nature in Close Up 2025 Calendar by Archie Miles & Laurie Campbell</a><br />
+                            <a className="lonely-name text-white" href="/shop">British Nature in Close Up 2025 Calendar by Archie Miles & Laurie Campbell</a><br />
                             <span className="lonely-price text-black">500.000đ</span>
                             <hr />
                             <div className="d-flex justify-content-between">
