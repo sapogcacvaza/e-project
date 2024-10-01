@@ -20,6 +20,7 @@
       "name": "2024 Calendar",
       "description": "A beautifully designed calendar for 2024, perfect for organizing your year. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
+      "categoryName": "Calendars",
       "price": 15,
       "img": "https://calendarkart.com/wp-content/uploads/2023/07/2024-Calendar-Green.jpg"
     },
@@ -28,6 +29,7 @@
       "name": "Daily Diary",
       "description": "A daily diary to jot down your thoughts and plans. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
+      "categoryName": "Diaries",
       "price": 10,
       "img": "https://www.crhut.co.uk/cdn/shop/products/image_71dc04f3-6557-47f6-9977-c4c85decb96b_1024x1024@2x.jpg?v=1693459415"
     },
@@ -36,6 +38,7 @@
       "name": "Classic Notebook",
       "description": "A classic notebook with high-quality pages, perfect for writing or sketching. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 3,
+      "categoryName": "Notebook",
       "price": 8,
       "img": "https://readingcabin.vn/wp-content/uploads/2024/09/kiotviet_cdd0bc0a91c4e1ee551137247cb63883.jpg"
     },
@@ -44,6 +47,7 @@
       "name": "Travel Journal",
       "description": "A journal designed for travelers, with prompts and space for notes. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
+      "categoryName": "Journals",
       "price": 12,
       "img": "https://i.etsystatic.com/11080716/r/il/39ba1d/5387655872/il_fullxfull.5387655872_kpyj.jpg"
     },
@@ -52,6 +56,7 @@
       "name": "Wall Calendar 2024",
       "description": "Large wall calendar with beautiful landscape images for each month. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
+      "categoryName": "Calendars",
       "price": 20,
       "img": "https://graphicsfamily.com/wp-content/uploads/edd/2022/12/2023-2024-Wall-Calendar-Design-scaled.jpg"
     },
@@ -60,6 +65,7 @@
       "name": "Pocket Diary",
       "description": "Compact diary to carry with you everywhere for quick notes. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
+      "categoryName": "Diaries",
       "price": 5,
       "img": "https://paperit.in/cdn/shop/products/IMG_2371_80e3d49b-069c-47a6-bd33-eba273fbf32b.jpg?v=1664458388&width=3357"
     },
@@ -68,6 +74,7 @@
       "name": "Spiral Notebook",
       "description": "Sturdy spiral-bound notebook with lined pages for easy writing. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 3,
+      "categoryName": "Notebook",
       "price": 6,
       "img": "https://images-na.ssl-images-amazon.com/images/I/71vrP7GOBLL.jpg"
     },
@@ -76,6 +83,7 @@
       "name": "Leather Journal",
       "description": "Premium leather-bound journal for special occasions or gift-giving. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
+      "categoryName": "Journals",
       "price": 25,
       "img": "https://ucarecdn.com/4788fef3-b9ac-4bd2-bcaf-78690335254c/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
     },
@@ -84,6 +92,7 @@
       "name": "Desk Calendar 2024",
       "description": "Compact desk calendar with a stand, perfect for your office desk. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
+      "categoryName": "Calendars",
       "price": 12,
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkcUwxQb58RzDlmbRt4yCTzefdAFBSSNWoLA&s"
     },
@@ -92,6 +101,7 @@
       "name": "Weekly Planner Diary",
       "description": "Organize your weeks with this detailed planner, featuring space for notes and schedules. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
+      "categoryName": "Diaries",
       "price": 15,
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmWClPx_lQvvLyl0qt6-ZSgXDhKPYrznoQOA&s"
     },
@@ -100,6 +110,7 @@
       "name": "Dotted Grid Notebook",
       "description": "Perfect for bullet journaling or drawing, with high-quality dotted pages. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 3,
+      "categoryName": "Notebook",
       "price": 9,
       "img": "https://m.media-amazon.com/images/I/71YmF+NZ2yL._AC_UF894,1000_QL80_.jpg"
     },
@@ -108,6 +119,7 @@
       "name": "Vintage Travel Journal",
       "description": "A retro-style journal designed for documenting your journeys. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
+      "categoryName": "Journals",
       "price": 18,
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEcGVc34Nu3OeBYLQE4J1GcWBAxhxJyDXhcQ&s"
     },
@@ -116,6 +128,7 @@
       "name": "Monthly Wall Planner",
       "description": "A large wall planner to organize your month at a glance. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
+      "categoryName": "Calendars",
       "price": 22,
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVyiSLWnNyWhuGIZckhWgUB74abnXp1zwoCg&s"
     },
@@ -124,6 +137,7 @@
       "name": "Digital Detox Diary",
       "description": "A diary focused on reducing screen time and promoting mindfulness. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
+      "categoryName": "Diaries",
       "price": 14,
       "img": "https://twillostory.com/cdn/shop/files/4_f0363583-5a94-4d78-b2f0-fed09a1eb365_1400x.jpg?v=1708660066"
     },
@@ -132,6 +146,7 @@
       "name": "Eco-Friendly Notebook",
       "description": "Made from recycled materials, perfect for eco-conscious note-takers. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 3,
+      "categoryName": "Notebook",
       "price": 7,
       "img": "https://www.sagana-ideas.com/wp-content/uploads/2020/08/871.jpg"
     },
@@ -140,6 +155,7 @@
       "name": "Artist's Sketch Journal",
       "description": "Journal with thick, high-quality pages for sketching and art. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
+      "categoryName": "Journals",
       "price": 20,
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq6qjsxyvsg3EM3O1k5eaBOgtN-bUSBh0iFQ&s"
     },
@@ -148,6 +164,7 @@
       "name": "Academic Wall Calendar",
       "description": "A calendar that aligns with the academic year, great for students and teachers. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
+      "categoryName": "Calendars",
       "price": 18,
       "img": "https://m.media-amazon.com/images/I/61bCprvN-CL._AC_.jpg"
     },
@@ -156,6 +173,7 @@
       "name": "Gratitude Diary",
       "description": "A diary to document daily reflections and gratitude. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
+      "categoryName": "Diaries",
       "price": 11,
       "img": "https://images-na.ssl-images-amazon.com/images/I/61CfvuwhniL.jpg"
     },
@@ -164,6 +182,7 @@
       "name": "Executive Notebook",
       "description": "Professional, executive-style notebook for meetings and note-taking. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 3,
+      "categoryName": "Notebook",
       "price": 15,
       "img": "https://www.levenger.com/cdn/shop/products/AL12670_EXECUTIVE-NOTABILIA-NOTEBOOK_CSW_BK_4bd1d5fd-d12e-44a7-9c0c-c5f0777ec9c9_800x.jpg?v=1695396494"
     },
@@ -172,6 +191,7 @@
       "name": "Adventure Travel Journal",
       "description": "Document your adventures with this rugged, adventure-themed journal. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
+      "categoryName": "Journals",
       "price": 19,
       "img": "https://m.media-amazon.com/images/I/41U2kRwDfUL._AC_UF1000,1000_QL80_.jpg"
     },
@@ -180,6 +200,7 @@
       "name": "Yearly Family Planner Calendar",
       "description": "A large calendar designed for busy families, with space for everyone’s schedule. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
+      "categoryName": "Calendars",
       "price": 24,
       "img": "https://d1fw31bt5svviq.cloudfront.net/img/12m&17m_twinie_family_calendar_web_product_a_eng.jpg.jpg"
     },
@@ -188,6 +209,7 @@
       "name": "Fitness Progress Diary",
       "description": "Track your fitness goals and progress with this dedicated fitness diary. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
+      "categoryName": "Diaries",
       "price": 16,
       "img": "https://m.media-amazon.com/images/I/61v12mASM5S._AC_UF1000,1000_QL80_.jpg"
     },
@@ -196,6 +218,7 @@
       "name": "Hardcover Lined Notebook",
       "description": "Durable hardcover notebook with lined pages, ideal for long-term use. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 3,
+      "categoryName": "Notebook",
       "price": 12,
       "img": "https://m.media-amazon.com/images/I/71LCHGaJPSL._AC_UF894,1000_QL80_.jpg"
     },
@@ -204,6 +227,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
+      "categoryName": "Journals",
       "price": 28,
       "img": "https://m.media-amazon.com/images/I/811UhEQJcBL._AC_UF894,1000_QL80_.jpg"
     },
@@ -212,6 +236,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
+      "categoryName": "Journals",
       "price": 50,
       "img": "img/magazine/anh1.jpg"
     }
@@ -221,6 +246,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
+      "categoryName": "Journals",
       "price": 50,
       "img": "img/magazine/anh2.jpg"
     }
@@ -230,6 +256,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
+      "categoryName": "Journals",
       "price": 50,
       "img": "img/magazine/anh3.jpg"
     }
@@ -239,6 +266,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
+      "categoryName": "Journals",
       "price": 50,
       "img": "img/magazine/anh4.jpg"
     }
@@ -248,6 +276,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
+      "categoryName": "Journals",
       "price": 50,
       "img": "img/magazine/anh5.jpg"
     }
@@ -257,24 +286,27 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
+      "categoryName": "Journals",
       "price": 50,
       "img": "img/magazine/anh6.jpg"
     }
     ,
     {
       "id": 31,
-      "name": "Classic Leather-bound Journal",
+      "name": "Inspiring SUN&NOW Eseapes",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
+      "categoryName": "Journals",
       "price": 50,
       "img": "img/magazine/anh7.jpg"
     }
     ,
     {
       "id": 32,
-      "name": "Classic Leather-bound Journal",
+      "name": "Island getaways special",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
+      "categoryName": "Journals",
       "price": 50,
       "img": "img/magazine/anh8.jpg"
     }
@@ -284,6 +316,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
+      "categoryName": "Journals",
       "price": 50,
       "img": "img/magazine/anh9.jpg"
     }
@@ -293,6 +326,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
+      "categoryName": "Journals",
       "price": 50,
       "img": "img/magazine/anh10.jpg"
     }
@@ -302,6 +336,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
+      "categoryName": "Journals",
       "price": 50,
       "img": "img/magazine/anh11.jpg"
     }
@@ -311,6 +346,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
+      "categoryName": "Diaries",
       "price": 50,
       "img": "img/diary/anh1.jpg"
     }
@@ -320,6 +356,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
+      "categoryName": "Diaries",
       "price": 50,
       "img": "img/diary/anh2.jpg"
     }
@@ -329,6 +366,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
+      "categoryName": "Diaries",
       "price": 50,
       "img": "img/diary/anh3.jpg"
     }
@@ -338,6 +376,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
+      "categoryName": "Diaries",
       "price": 50,
       "img": "img/diary/anh4.jpg"
     }
@@ -347,6 +386,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
+      "categoryName": "Diaries",
       "price": 50,
       "img": "img/diary/anh5.jpg"
     }
@@ -356,6 +396,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
+      "categoryName": "Diaries",
       "price": 50,
       "img": "img/diary/anh6.jpg"
     }
@@ -365,6 +406,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
+      "categoryName": "Diaries",
       "price": 50,
       "img": "img/diary/anh7.jpg"
     }
@@ -374,6 +416,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
+      "categoryName": "Diaries",
       "price": 50,
       "img": "img/diary/anh8.jpg"
     }
@@ -383,6 +426,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
+      "categoryName": "Diaries",
       "price": 50,
       "img": "img/diary/anh9.jpg"
     }
@@ -392,6 +436,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
+      "categoryName": "Diaries",
       "price": 50,
       "img": "img/diary/anh10.jpg"
     }
@@ -401,6 +446,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
+      "categoryName": "Diaries",
       "price": 50,
       "img": "img/diary/anh11.jpg"
     }
@@ -410,6 +456,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
+      "categoryName": "Calendars",
       "price": 50,
       "img": "img/calendar/anh1.jpg"
     }
@@ -419,6 +466,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
+      "categoryName": "Calendars",
       "price": 50,
       "img": "img/calendar/anh2.jpg"
     }
@@ -428,6 +476,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
+      "categoryName": "Calendars",
       "price": 50,
       "img": "img/calendar/anh3.jpg"
     }
@@ -437,6 +486,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
+      "categoryName": "Calendars",
       "price": 50,
       "img": "img/calendar/anh4.jpg"
     }
@@ -446,6 +496,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
+      "categoryName": "Calendars",
       "price": 50,
       "img": "img/calendar/anh5.jpg"
     }
@@ -455,6 +506,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
+      "categoryName": "Calendars",
       "price": 50,
       "img": "img/calendar/anh6.jpg"
     }
@@ -464,6 +516,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
+      "categoryName": "Calendars",
       "price": 50,
       "img": "img/calendar/anh7.jpg"
     }
@@ -473,6 +526,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
+      "categoryName": "Calendars",
       "price": 50,
       "img": "img/calendar/anh8.jpg"
     }
@@ -482,6 +536,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
+      "categoryName": "Calendars",
       "price": 50,
       "img": "img/calendar/anh9.jpg"
     }
@@ -491,6 +546,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
+      "categoryName": "Calendars",
       "price": 50,
       "img": "img/calendar/anh10.jpg"
     }
@@ -500,6 +556,7 @@
       "name": "Classic Leather-bound Journal",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
+      "categoryName": "Calendars",
       "price": 50,
       "img": "img/calendar/anh11.jpg"
     }
