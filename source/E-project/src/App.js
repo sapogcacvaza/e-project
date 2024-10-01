@@ -25,11 +25,11 @@ function App() {
         <Route path='/search/' element={<Search />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/about' element={<About />} />
-<<<<<<< HEAD
+
         <Route path="shop/category/:categoryId" element={<CategoryShop />} />
-=======
+
         <Route path='/login' element={<Login />} />
->>>>>>> c72b9c09d86641fccc2fdd50f4745894592d9072
+
       </Routes>
       <Footer />
 
