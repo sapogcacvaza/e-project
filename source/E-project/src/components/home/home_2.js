@@ -27,7 +27,7 @@ export default function Home_2() { // carousel
                                                     <i className="fa fa-quote-right text-black"></i>
                                                 </div>
                                                 <div className="img-area animated zoomIn" style={{ animationDelay: "1s" }}>
-                                                    <Image src="img/avatar.jpg" />
+                                                    <Image src="https://vn-test-11.slatic.net/p/be767db7a237c051ac4cb7b1b29d51cc.jpg" />
                                                 </div>
                                                 <p className="text-black">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo perferendis corrupti aliquam ad. Perferendis nihil
                                                     delectus iste voluptate voluptatum vitae totam dolores rerum, aspernatur quidem explicabo vero eos architecto
@@ -45,7 +45,7 @@ export default function Home_2() { // carousel
                                                     <i className="fa fa-quote-right text-black"></i>
                                                 </div>
                                                 <div className="img-area animated zoomIn" style={{ animationDelay: "2s" }}>
-                                                    <Image src="img/avatar.jpg" />
+                                                    <Image src="https://gcs.tripi.vn/public-tripi/tripi-feed/img/474119oYU/hinh-anh-anime-girl-lanh-lung-ca-tinh-dep_100159130.jpg" />
                                                 </div>
                                                 <p className="text-black">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo perferendis corrupti aliquam ad. Perferendis nihil
                                                     delectus iste voluptate voluptatum vitae totam dolores rerum, aspernatur quidem explicabo vero eos architecto
@@ -63,7 +63,7 @@ export default function Home_2() { // carousel
                                                     <i className="fa fa-quote-right text-black"></i>
                                                 </div>
                                                 <div className="img-area animated zoomIn" style={{ animationDelay: "2s" }}>
-                                                    <Image src="img/avatar.jpg" />
+                                                    <Image src="https://mega.com.vn/media/news/2306_hinh-nen-anime-nu-cho-dien-thoai1.jpg" />
                                                 </div>
                                                 <p className="text-black">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo perferendis corrupti aliquam ad. Perferendis nihil
                                                     delectus iste voluptate voluptatum vitae totam dolores rerum, aspernatur quidem explicabo vero eos architecto
