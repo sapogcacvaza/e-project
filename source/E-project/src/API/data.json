@@ -206,6 +206,104 @@
       "categoryId": 4,
       "price": 28,
       "img": "https://m.media-amazon.com/images/I/811UhEQJcBL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Classic Leather-bound Journal",
+      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
+      "categoryId": 4,
+      "price": 50,
+      "img": "img/magazine/anh1.jpg"
+    }
+    ,
+    {
+      "id": 26,
+      "name": "Classic Leather-bound Journal",
+      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
+      "categoryId": 4,
+      "price": 50,
+      "img": "img/magazine/anh2.jpg"
+    }
+    ,
+    {
+      "id": 27,
+      "name": "Classic Leather-bound Journal",
+      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
+      "categoryId": 4,
+      "price": 50,
+      "img": "img/magazine/anh3.jpg"
+    }
+    ,
+    {
+      "id": 28,
+      "name": "Classic Leather-bound Journal",
+      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
+      "categoryId": 4,
+      "price": 50,
+      "img": "img/magazine/anh4.jpg"
+    }
+    ,
+    {
+      "id": 29,
+      "name": "Classic Leather-bound Journal",
+      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
+      "categoryId": 4,
+      "price": 50,
+      "img": "img/magazine/anh5.jpg"
+    }
+    ,
+    {
+      "id": 30,
+      "name": "Classic Leather-bound Journal",
+      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
+      "categoryId": 4,
+      "price": 50,
+      "img": "img/magazine/anh6.jpg"
+    }
+    ,
+    {
+      "id": 31,
+      "name": "Classic Leather-bound Journal",
+      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
+      "categoryId": 4,
+      "price": 50,
+      "img": "img/magazine/anh7.jpg"
+    }
+    ,
+    {
+      "id": 32,
+      "name": "Classic Leather-bound Journal",
+      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
+      "categoryId": 4,
+      "price": 50,
+      "img": "img/magazine/anh8.jpg"
+    }
+    ,
+    {
+      "id": 33,
+      "name": "Classic Leather-bound Journal",
+      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
+      "categoryId": 4,
+      "price": 50,
+      "img": "img/magazine/anh9.jpg"
+    }
+    ,
+    {
+      "id": 34,
+      "name": "Classic Leather-bound Journal",
+      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
+      "categoryId": 4,
+      "price": 50,
+      "img": "img/magazine/anh10.jpg"
+    }
+    ,
+    {
+      "id": 35,
+      "name": "Classic Leather-bound Journal",
+      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
+      "categoryId": 4,
+      "price": 50,
+      "img": "img/magazine/anh11.jpg"
     }
   ]
     
