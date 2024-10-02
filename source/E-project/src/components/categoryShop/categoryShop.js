@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import ReactPaginate from 'react-paginate';
 import { Link } from "react-router-dom";
 export default function CategoryShop() {
-    const { categoryId } = useParams(); // Lấy categoryID từ URL
+    const { categoryId, categoryName } = useParams(); // Lấy categoryID từ URL
     const [sortOrder, setSortOrder] = useState("");
     const [products, setProducts] = useState([]);
     const [filteredProducts, setFilteredProducts] = useState([]);
@@ -27,7 +27,7 @@ export default function CategoryShop() {
         };
 
         fetchData();
-    }, [categoryId, sortOrder, itemsPerPage]);
+    }, [categoryId, sortOrder, itemsPerPage, categoryName]);
 
     useEffect(() => {
         setTotalProduct(Math.ceil(filteredProducts.length / itemsPerPage));
@@ -41,9 +41,6 @@ export default function CategoryShop() {
     const indexOfLastItem = (currentPage + 1) * itemsPerPage;
     const indexOfFirstItem = indexOfLastItem - itemsPerPage;
 
-    const safeIndexOfLastItem = Math.min(indexOfLastItem, filteredProducts.length);
-    const safeIndexOfFirstItem = Math.min(indexOfFirstItem, filteredProducts.length);
-
     const currentItem = filteredProducts.slice(indexOfFirstItem, indexOfLastItem);
 
     console.log('current item:', currentItem)
@@ -54,6 +51,7 @@ export default function CategoryShop() {
     const handleSortChange = (event) => {
         setSortOrder(event.target.value);
     };
+
     return (
         <>
             <div className="container-fluid fruite py-6 ">
