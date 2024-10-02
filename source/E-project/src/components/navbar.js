@@ -59,13 +59,13 @@ export default function Navbar() {
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><Link to={'/shop'} class="dropdown-item">All</Link></li>
                                     <li><Link to={'shop/category/1'} class="dropdown-item">Calendars</Link></li>
-                                    <li><Link to={'shop/category/2'} class="dropdown-item" href="#">Diaries</Link></li>
-                                    <li><Link to={'shop/category/3'} class="dropdown-item" href="#">Notebook</Link></li>
-                                    <li><Link to={'shop/category/4'} class="dropdown-item" href="#">Journals</Link></li>
+                                    <li><Link to={'shop/category/2'} class="dropdown-item">Diaries</Link></li>
+                                    <li><Link to={'shop/category/3'} class="dropdown-item">Notebook</Link></li>
+                                    <li><Link to={'shop/category/4'} class="dropdown-item">Journals</Link></li>
                                 </ul>
                             </li>
                             <Link to={'/contact'} className="nav-item nav-link text-white ">Contact Us</Link>
-                            <Link to={'/about'} className="nav-item nav-link text-white ">Helping Communities</Link>
+                            <Link to={'/help'} className="nav-item nav-link text-white ">Helping Communities</Link>
                         </div>
                         <div className="navbar-nav d-flex">
                             <Link to={'/'} className="nav-item nav-link text-white" style={{ position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center' }} >

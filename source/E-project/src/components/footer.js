@@ -10,7 +10,7 @@ export default function footer() {
                                 <a className="btn-link text-white" href="/shop">Home</a>
                                 <a className="btn-link text-white" href="/shop">Shop</a>
                                 <a className="btn-link text-white" href="/contact">Contact Us</a>
-                                <a className="btn-link text-white" href="/about">Helping Communities</a>
+                                <a className="btn-link text-white" href="/help">Helping Communities</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
