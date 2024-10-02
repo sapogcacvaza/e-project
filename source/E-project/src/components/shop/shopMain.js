@@ -6,8 +6,6 @@ export default function Shop() {
     return (
         <>
             <Shop_1 />
-
-
         </>
     )
 }

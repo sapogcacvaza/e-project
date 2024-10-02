@@ -3,6 +3,7 @@ import Home_2 from "./home_2"
 import Home_3 from "./home_3"
 import Home_4 from "./home_4"
 import Home_5 from "./home_5"
+import Home_6 from "./home_6"
 
 export default function homeMain() {
     return (
@@ -12,6 +13,7 @@ export default function homeMain() {
             <Home_3 />
             <Home_2 />
             <Home_5 />
+            <Home_6 />
         </div>
     )
 }

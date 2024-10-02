@@ -7,7 +7,7 @@ export default function Home_2() { // carousel
             <div className="wrapper">
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-12 col-md-12 col-lg-12">
+                        <div className="col-sm-10 col-md-12 col-lg-12">
                             <div className="section-header text-center">
                                 <h2 className="text-black">Testimonials</h2>
                             </div>

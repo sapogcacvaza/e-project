@@ -204,14 +204,14 @@ body {
 }
 
 .dropdown .dropdown-menu a:hover {
-    background: var(--bs-secondary);
-    color: var(--bs-primary);
+    background: var(--bs-blue);
+    color: var(--bs-black);
 }
 
 .navbar .nav-item:hover .dropdown-menu {
     transform: rotateX(0deg);
     visibility: visible;
-    background: var(--bs-light) !important;
+    background: var(--bs-white) !important;
     border-radius: 10px !important;
     transition: .5s;
     opacity: 1;
@@ -794,10 +794,65 @@ body {
 }
 
 .input-newsletter {
-    width: 50%;
+    width: 400px;
 }
 
 .h1-newsletter {
     font-family: "Unica One", sans-serif;
     font-weight: lighter;
+    font-size: 30px;
+}
+
+.btn-email {
+    right: 0%;
+    border: 1px solid #000;
+    background-color: #006eff;
+    border-radius: 0;
+}
+
+.form-email {
+    display: inline-block;
+}
+
+/* show-product start */
+
+.show-product {
+    padding: 80px 0;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    max-width: 80%;
+    margin-top: 15px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.product-hover p{
+    font-weight: 400;
+}
+
+.product-hover {
+    border: 0.5px solid #f7f7f7;
+    margin-top: 0;
+}
+
+.product-hover:hover {
+    background-color: #f7f7f7;
+}
+
+.show-name {
+    font-family: Unica One, sans-serif;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background-color: #006eff;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 70px;
+}
+
+.kkk {
+    color: #868265b8;
 }
