@@ -233,331 +233,331 @@
     },
     {
       "id": 25,
-      "name": "Classic Leather-bound Journal",
+      "name": "Perfect The Art Of Lazy In The Coastal Gem Of Gahe",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
       "categoryName": "Journals",
-      "price": 50,
+      "price": 14,
       "img": "img/magazine/anh1.jpg"
     }
     ,
     {
       "id": 26,
-      "name": "Classic Leather-bound Journal",
+      "name": "The Luxury 50 List ",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
       "categoryName": "Journals",
-      "price": 50,
+      "price": 16,
       "img": "img/magazine/anh2.jpg"
     }
     ,
     {
       "id": 27,
-      "name": "Classic Leather-bound Journal",
+      "name": "Destinations To Watch In 2014",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
       "categoryName": "Journals",
-      "price": 50,
+      "price": 12,
       "img": "img/magazine/anh3.jpg"
     }
     ,
     {
       "id": 28,
-      "name": "Classic Leather-bound Journal",
+      "name": "Best luxury cruises 2014",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
       "categoryName": "Journals",
-      "price": 50,
+      "price": 19,
       "img": "img/magazine/anh4.jpg"
     }
     ,
     {
       "id": 29,
-      "name": "Classic Leather-bound Journal",
+      "name": "The 100 List Best Hotels In The World",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 4,
       "categoryName": "Journals",
-      "price": 50,
-      "img": "img/magazine/anh5.jpg"
-    }
-    ,
-    {
-      "id": 30,
-      "name": "Classic Leather-bound Journal",
-      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
-      "categoryId": 4,
-      "categoryName": "Journals",
-      "price": 50,
-      "img": "img/magazine/anh6.jpg"
-    }
-    ,
-    {
-      "id": 31,
-      "name": "Inspiring SUN&NOW Eseapes",
-      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
-      "categoryId": 4,
-      "categoryName": "Journals",
-      "price": 50,
-      "img": "img/magazine/anh7.jpg"
-    }
-    ,
-    {
-      "id": 32,
-      "name": "Island getaways special",
-      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
-      "categoryId": 4,
-      "categoryName": "Journals",
-      "price": 50,
-      "img": "img/magazine/anh8.jpg"
-    }
-    ,
-    {
-      "id": 33,
-      "name": "Classic Leather-bound Journal",
-      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
-      "categoryId": 4,
-      "categoryName": "Journals",
-      "price": 50,
-      "img": "img/magazine/anh9.jpg"
-    }
-    ,
-    {
-      "id": 34,
-      "name": "Classic Leather-bound Journal",
-      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
-      "categoryId": 4,
-      "categoryName": "Journals",
-      "price": 50,
-      "img": "img/magazine/anh10.jpg"
-    }
-    ,
-    {
-      "id": 35,
-      "name": "Classic Leather-bound Journal",
-      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
-      "categoryId": 4,
-      "categoryName": "Journals",
-      "price": 50,
+      "price": 17,
       "img": "img/magazine/anh11.jpg"
     }
     ,
     {
+      "id": 30,
+      "name": "Maldives Most Wanted",
+      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
+      "categoryId": 4,
+      "categoryName": "Journals",
+      "price": 15,
+      "img": "img/magazine/anh5.jpg"
+    }
+    ,
+    {
+      "id": 31,
+      "name": "Holiday Destination for lovers",
+      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
+      "categoryId": 4,
+      "categoryName": "Journals",
+      "price": 12,
+      "img": "img/magazine/anh6.jpg"
+    }
+    ,
+    {
+      "id": 32,
+      "name": "Destination to watch 2024",
+      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
+      "categoryId": 4,
+      "categoryName": "Journals",
+      "price": 14,
+      "img": "img/magazine/anh7.jpg"
+    }
+    ,
+    {
+      "id": 33,
+      "name": "Island getaways special",
+      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
+      "categoryId": 4,
+      "categoryName": "Journals",
+      "price": 17,
+      "img": "img/magazine/anh8.jpg"
+    }
+    ,
+    {
+      "id": 34,
+      "name": "The 100 List Best Hotels In The World",
+      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
+      "categoryId": 4,
+      "categoryName": "Journals",
+      "price": 15,
+      "img": "img/magazine/anh9.jpg"
+    }
+    ,
+    {
+      "id": 35,
+      "name": "Harbour fsland Bahamas Little Isiand",
+      "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
+      "categoryId": 4,
+      "categoryName": "Journals",
+      "price": 20,
+      "img": "img/magazine/anh10.jpg"
+    }
+    ,
+    {
       "id": 36,
-      "name": "Classic Leather-bound Journal",
+      "name": "Bujo Planner Notebook A5 Planner Hardcover Black",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
       "categoryName": "Diaries",
-      "price": 50,
+      "price": 22,
       "img": "img/diary/anh1.jpg"
     }
     ,
     {
       "id": 37,
-      "name": "Classic Leather-bound Journal",
+      "name": "Bujo Planner Notebook A5 Planner Hardcover Gray",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
       "categoryName": "Diaries",
-      "price": 50,
+      "price": 25,
       "img": "img/diary/anh2.jpg"
     }
     ,
     {
       "id": 38,
-      "name": "Classic Leather-bound Journal",
+      "name": "Bujo Planner Notebook A5 Planner Hardcover Light Blue",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
       "categoryName": "Diaries",
-      "price": 50,
+      "price": 22,
       "img": "img/diary/anh3.jpg"
     }
     ,
     {
       "id": 39,
-      "name": "Classic Leather-bound Journal",
+      "name": "Bujo Planner Notebook A5 Planner Hardcover Blue",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
       "categoryName": "Diaries",
-      "price": 50,
+      "price": 26,
       "img": "img/diary/anh4.jpg"
     }
     ,
     {
       "id": 40,
-      "name": "Classic Leather-bound Journal",
+      "name": "Bujo Planner Notebook A5 Planner Hardcover Red",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
       "categoryName": "Diaries",
-      "price": 50,
+      "price": 23,
       "img": "img/diary/anh5.jpg"
     }
     ,
     {
       "id": 41,
-      "name": "Classic Leather-bound Journal",
+      "name": "Bujo Planner Notebook A5 Planner Hardcover Orange",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
       "categoryName": "Diaries",
-      "price": 50,
+      "price": 29,
       "img": "img/diary/anh6.jpg"
     }
     ,
     {
       "id": 42,
-      "name": "Classic Leather-bound Journal",
+      "name": "Orange A5 planner 300 pages",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
       "categoryName": "Diaries",
-      "price": 50,
+      "price": 23,
       "img": "img/diary/anh7.jpg"
     }
     ,
     {
       "id": 43,
-      "name": "Classic Leather-bound Journal",
+      "name": "Purple A5 planner 300 pages",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
       "categoryName": "Diaries",
-      "price": 50,
+      "price": 27,
       "img": "img/diary/anh8.jpg"
     }
     ,
     {
       "id": 44,
-      "name": "Classic Leather-bound Journal",
+      "name": "A5 planner, turquoise, 300 pages",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
       "categoryName": "Diaries",
-      "price": 50,
+      "price": 24,
       "img": "img/diary/anh9.jpg"
     }
     ,
     {
       "id": 45,
-      "name": "Classic Leather-bound Journal",
+      "name": "White Starry Sky Plan 2024",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
       "categoryName": "Diaries",
-      "price": 50,
+      "price": 31,
       "img": "img/diary/anh10.jpg"
     }
     ,
     {
       "id": 46,
-      "name": "Classic Leather-bound Journal",
+      "name": "Black Starry Sky Plan 2024",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 2,
       "categoryName": "Diaries",
-      "price": 50,
+      "price": 33,
       "img": "img/diary/anh11.jpg"
     }
     ,
     {
       "id": 47,
-      "name": "Classic Leather-bound Journal",
+      "name": "British Birds 2025",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
       "categoryName": "Calendars",
-      "price": 50,
+      "price": 35,
       "img": "img/calendar/anh1.jpg"
     }
     ,
     {
       "id": 48,
-      "name": "Classic Leather-bound Journal",
+      "name": "British Sunrises & Sunsets 2025",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
       "categoryName": "Calendars",
-      "price": 50,
+      "price": 37,
       "img": "img/calendar/anh2.jpg"
     }
     ,
     {
       "id": 49,
-      "name": "Classic Leather-bound Journal",
+      "name": "British Rivers & Lakes 2025",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
       "categoryName": "Calendars",
-      "price": 50,
+      "price": 34,
       "img": "img/calendar/anh3.jpg"
     }
     ,
     {
       "id": 50,
-      "name": "Classic Leather-bound Journal",
+      "name": "British Nature in Close Up 2025",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
       "categoryName": "Calendars",
-      "price": 50,
+      "price": 31,
       "img": "img/calendar/anh4.jpg"
     }
     ,
     {
       "id": 51,
-      "name": "Classic Leather-bound Journal",
+      "name": "British Butterflies 2025",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
       "categoryName": "Calendars",
-      "price": 50,
+      "price": 32,
       "img": "img/calendar/anh5.jpg"
     }
     ,
     {
       "id": 52,
-      "name": "Classic Leather-bound Journal",
+      "name": "British Coastlines 2025",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
       "categoryName": "Calendars",
-      "price": 50,
+      "price": 26,
       "img": "img/calendar/anh6.jpg"
     }
     ,
     {
       "id": 53,
-      "name": "Classic Leather-bound Journal",
+      "name": "British Woodlands 2025",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
       "categoryName": "Calendars",
-      "price": 50,
+      "price": 34,
       "img": "img/calendar/anh7.jpg"
     }
     ,
     {
       "id": 54,
-      "name": "Classic Leather-bound Journal",
+      "name": "British Wild Flowers 2025",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
       "categoryName": "Calendars",
-      "price": 50,
+      "price": 35,
       "img": "img/calendar/anh8.jpg"
     }
     ,
     {
       "id": 55,
-      "name": "Classic Leather-bound Journal",
+      "name": "British Heritage Trees 2025",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
       "categoryName": "Calendars",
-      "price": 50,
+      "price": 33,
       "img": "img/calendar/anh9.jpg"
     }
     ,
     {
       "id": 56,
-      "name": "Classic Leather-bound Journal",
+      "name": "Heritage Tree Calendar 2024",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
       "categoryName": "Calendars",
-      "price": 50,
+      "price": 29,
       "img": "img/calendar/anh10.jpg"
     }
     ,
     {
       "id": 57,
-      "name": "Classic Leather-bound Journal",
+      "name": "British Birds of Prey 2025",
       "description": "Luxurious leather-bound journal for preserving your thoughts and ideas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, vero iure temporibus voluptatum incidunt qui.",
       "categoryId": 1,
       "categoryName": "Calendars",
-      "price": 50,
+      "price": 32,
       "img": "img/calendar/anh11.jpg"
     }
     
