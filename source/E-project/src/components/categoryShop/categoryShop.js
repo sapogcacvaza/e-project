@@ -57,7 +57,6 @@ export default function CategoryShop() {
             <div className="container-fluid fruite py-6 ">
                 <div className="container py-5">
                     <div className="row g-4 mt-4">
-                        <h1 className="text-black d-flex text-uppercase">{categoryId}</h1>
                         <div className="col-lg-12">
                             <div className="row g-4">
                                 <div className="col-xl-3">
