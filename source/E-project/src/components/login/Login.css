@@ -31,6 +31,7 @@
     margin-top: 15px;
     box-shadow: rgba(58, 70, 75, 0.878) 0px 10px 10px -5px;
     border-inline: 2px solid transparent;
+    display: block;
   }
   
   .form .input::-moz-placeholder {
@@ -138,4 +139,3 @@
     color: #0099ff;
     font-size: 9px;
   }
-      

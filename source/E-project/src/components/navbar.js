@@ -70,7 +70,7 @@ export default function Navbar() {
                         <div className="navbar-nav d-flex">
                             <Link to={'/'} className="nav-item nav-link text-white" style={{ position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center' }} >
                                 <form id="search-form" ref={searchFormRef} onSubmit={onSearch} style={{ position: 'absolute', right: '50px', display: showSearch ? 'block' : 'none' }}>
-                                    <input placeholder="Search" className="input" name="text" type="text" />
+                                    <input placeholder="Search" className="dog-form" name="text" type="text" />
                                 </form>
 
                                 <i id="search-icon" onClick={toggleSearchForm} ref={searchIconRef} className="bi bi-search"></i>

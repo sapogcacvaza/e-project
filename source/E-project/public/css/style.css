@@ -501,7 +501,6 @@ body {
 
 .input {
     font-family: "SF Pro";
-    max-width: 190px;
     padding: 0.875rem;
     font-size: 1rem;
     border: 1.5px solid #000;
@@ -855,4 +854,10 @@ body {
 
 .kkk {
     color: #868265b8;
+}
+
+/* login start  */
+
+.dog-form {
+    max-width: 190px;
 }
