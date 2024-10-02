@@ -68,7 +68,7 @@ export default function Navbar() {
                             <Link to={'/help'} className="nav-item nav-link text-white ">Helping Communities</Link>
                         </div>
                         <div className="navbar-nav d-flex">
-                            <Link to={'/'} className="nav-item nav-link text-white" style={{ position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center' }} >
+                            <Link to={'/search'} className="nav-item nav-link text-white" style={{ position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center' }} >
                                 <form id="search-form" ref={searchFormRef} onSubmit={onSearch} style={{ position: 'absolute', right: '50px', display: showSearch ? 'block' : 'none' }}>
                                     <input placeholder="Search" className="dog-form" name="keyword" type="text" />
                                 </form>
