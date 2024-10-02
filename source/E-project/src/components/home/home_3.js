@@ -12,7 +12,7 @@ export default function Home_3() { // Featurs
                         </div>
                         <div className="col-md-12 col-lg-7">
                             <a className="lonely-name text-white" href="/shop">British Nature in Close Up 2025 Calendar by Archie Miles & Laurie Campbell</a><br />
-                            <span className="lonely-price text-black">500.000đ</span>
+                            <span className="lonely-price text-black">50.00$</span>
                             <hr />
                             <div className="d-flex justify-content-between">
                                 <div className="input-group quantity mb-5" style={{ width: '100px', margin: 'auto' }}>

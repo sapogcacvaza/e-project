@@ -33,7 +33,7 @@ export default function footer() {
                                 <p className="text-white">Email: info@example.com</p>
                                 <p className="text-white">Phone: (+012) 3456 7890</p>
                                 <p className="text-white">Payment Accepted</p>
-                                <img src="img/payment.png" className="img" alt="" />
+                                <img src="img/payment.png" className="img w-50" alt="" />
                             </div>
                         </div>
                     </div>
