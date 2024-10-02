@@ -56,22 +56,19 @@ export default function Search2() {
         <div className="container">
             <div className="row">
                 {filteredProducts.map(product => (
-                    <div className="col-md-4" key={product.id}>
+                    <div className="col-md-3" key={product.id}>
                         <div className="rounded position-relative fruite-item">
                             <div className="fruite-img">
                                 <Link to={`http://localhost:3000/shop-detail/${product.id}`}>
-                                    <img src={product.img} className="img-fruid w-100 rounded-top" alt={product.name} />
+                                    <img src={product.img} className="img w-100 rounded-top" alt={product.name} style={{ height: "200px" }} />
                                 </Link>
                             </div>
-                            <div className="bg-danger text-white bg-secondary px-3 py-1 rounded position-absolute" style={{ top: '10px', left: '10px' }}>
-                                -15%
-                            </div>
                             <div className="p-4 border border-secondary border-top-0 rounded-bottom">
-                                <h4>{product.name}</h4>
-                                <p>{product.description}</p>
+                                <h4 className="text-black">{product.name}</h4>
+                                <p className="text-black text-truncate">{product.description}</p>
                                 <div className="d-flex justify-content-between flex-lg-wrap">
-                                    <p className="text-dark fs-5 fw-bold mb-0">{product.price}$</p>
-                                    <Link to={`http://localhost:3000/shop-detail/${product.id}`} className="btn  btn-dark border border-secondary rounded-pill px-3 text-white">
+                                    <p className="text-black fs-5 fw-bold mb-0">{product.price}$</p>
+                                    <Link to={`http://localhost:3000/shop-detail/${product.id}`} className="btn bg-blue border border-secondary rounded-pill px-3 text-white">
                                         <i className="fa fa-shopping-bag me-2 text-white"></i> View Detail
                                     </Link>
                                 </div>
