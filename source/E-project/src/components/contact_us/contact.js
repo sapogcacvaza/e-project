@@ -7,13 +7,6 @@ export default function Contact() {
                 <div class="container py-5">
                     <div class="p-5 bg-light rounded">
                         <div class="row g-4">
-                            <div class="col-12">
-
-                                <div class="text-center mx-auto" style={{ maxWidth: '700px' }}>
-                                    <h1 class="text-dark">Get in touch</h1>
-
-                                </div>
-                            </div>
                             <div class="col-lg-12">
                                 <div class="h-100 rounded">
                                     <iframe class="rounded w-100"
@@ -26,29 +19,29 @@ export default function Contact() {
                                     <input type="text" class="w-100 form-control border-0 py-3 mb-4" placeholder="Your Name" />
                                     <input type="email" class="w-100 form-control border-0 py-3 mb-4" placeholder="Enter Your Email" />
                                     <textarea class="w-100 form-control border-0 mb-4" rows="5" cols="10" placeholder="Your Message"></textarea>
-                                    <button class="w-100 btn form-control border-secondary py-3 bg-white text-dark " type="submit">Submit</button>
+                                    <button class="w-100 btn bg-blue border-1 form-control border-white py-3 text-white " type="submit">Submit</button>
                                 </form>
                             </div>
                             <div class="col-lg-5">
                                 <div class="d-flex p-4 rounded mb-4 bg-white">
-                                    <i class="fas fa-map-marker-alt fa-2x text-dark me-4"></i>
+                                    <i class="fas fa-map-marker-alt fa-2x text-black me-4"></i>
                                     <div class="">
-                                        <h4 class="d-flex justify-content-center">Address</h4>
-                                        <p class="mb-2">HTC Building, 250 Hoang Quoc Viet, Co Nhue, Cau Giay, Hanoi, Vietnam</p>
+                                        <h4 class="text-center text-black">Address</h4>
+                                        <p class="mb-2 text-black">HTC Building, 250 Hoang Quoc Viet, Co Nhue, Cau Giay, Hanoi, Vietnam</p>
                                     </div>
                                 </div>
                                 <div class="d-flex p-4 rounded mb-4 bg-white">
-                                    <i class="fas fa-envelope fa-2x text-dark me-4"></i>
+                                    <i class="fas fa-envelope fa-2x text-black me-4"></i>
                                     <div>
-                                        <h4 class="d-flex justify-content-center">Mail Us</h4>
-                                        <p class="mb-2">info@example.com</p>
+                                        <h4 class="d-flex justify-content-center text-black">Mail Us</h4>
+                                        <p class="mb-2 text-black">info@example.com</p>
                                     </div>
                                 </div>
                                 <div class="d-flex p-4 rounded bg-white">
-                                    <i class="fa fa-phone-alt fa-2x text-dark me-4"></i>
+                                    <i class="fa fa-phone-alt fa-2x text-black me-4"></i>
                                     <div>
-                                        <h4 class="d-flex justify-content-center">Telephone</h4>
-                                        <p class="mb-2">(+012) 3456 7890</p>
+                                        <h4 class="d-flex justify-content-center text-black">Telephone</h4>
+                                        <p class="mb-2 text-black">(+012) 3456 7890</p>
                                     </div>
                                 </div>
                             </div>

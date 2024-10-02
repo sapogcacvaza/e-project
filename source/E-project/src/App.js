@@ -10,7 +10,7 @@ import { Route, Routes } from 'react-router-dom';
 import Footer from './components/footer';
 import CategoryShop from './components/categoryShop/categoryShop';
 import Contact from './components/contact_us/contact';
-import About from './components/about/about';
+import Help from './components/help/help';
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
         <Route path='/shop-detail/:id' element={<ShopDetail />} />
         <Route path='/search/' element={<Search />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/about' element={<About />} />
+        <Route path='/help' element={<Help />} />
         <Route path="shop/category/:categoryId" element={<CategoryShop />} />
         <Route path='/login' element={<Login />} />
       </Routes>
