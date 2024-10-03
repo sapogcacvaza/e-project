@@ -20,6 +20,8 @@ export default function Login() {
     const error = {};
     if (isEmptyValue(FormValue.email)) {
       error["email"] = "Enter Email";
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(FormValue.email)) {
+      error["email"] = "Enter a valid Email address";
     }
 
     if (isEmptyValue(FormValue.password)) {
@@ -27,7 +29,13 @@ export default function Login() {
     }
 
     setFormError(error)
-    return Object.keys(error).length === 0
+    if (Object.keys(error).length === 0) {
+      alert("Log in successfully"); // Hiển thị thông báo "OK" nếu không có lỗi
+      return true;
+    } else {
+      return false;
+    }
+
   };
 
   const handleChange = (event) => {

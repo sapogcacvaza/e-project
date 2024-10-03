@@ -22,6 +22,8 @@ export default function Register() {
     const error = {};
     if (isEmptyValue(FormValue.email)) {
       error["email"] = "Enter Email";
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(FormValue.email)) {
+      error["email"] = "Enter a valid Email address";
     }
 
     if (isEmptyValue(FormValue.password)) {
@@ -45,7 +47,7 @@ export default function Register() {
     setFormError(error)
 
     if (Object.keys(error).length === 0) {
-      alert("OK"); // Hiển thị thông báo "OK" nếu không có lỗi
+      alert("Register successfully"); // Hiển thị thông báo "OK" nếu không có lỗi
       return true;
     } else {
       return false;
