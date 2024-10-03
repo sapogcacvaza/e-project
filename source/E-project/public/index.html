@@ -40,8 +40,53 @@
   <script src="lib/waypoints/waypoints.min.js"></script>
   <script src="lib/lightbox/js/lightbox.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="plugin/validator/jquery.validate.min.js"></script>
 
   <script src="js/main.js"></script>
+  <script>
+    $("#form-register").validate({
+      rules: {
+        full_name: {
+          required: true,
+          minlength: 4,
+          maxlength: 50,
+        },
+        email: {
+          required: true,
+          email: true,
+        },
+        password: {
+          required: true,
+          minlength: 4,
+          maxlength: 12,
+        },
+        Confirm_password: {
+          required: true,
+          check_confirm: "password",
+        },
+      },
+      messages: {
+        full_name: {
+          required: "Họ tên không thể để trống",
+          minlength: "Họ tên không thể để trống",
+          maxlength: "Họ tên không thể để trống",
+        },
+        email: {
+          required: "Email không thể để trống",
+          minlength: "Email không thể để trống",
+          maxlength: "Họ tên không thể để trống",
+        },
+        password: {
+          required: "Mật khẩu không thể để trống",
+          minlength: "Mật khẩu tối thiếu là 4 ký tự",
+          maxlength: "Mật khẩu tối đa là 12 ký tự",
+        },
+        Confirm_password: {
+          required: "Nhập lại mật khẩu không chùng",
+        },
+      },
+    });
+  </script>
 </body>
 
 </html>

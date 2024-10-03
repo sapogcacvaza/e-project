@@ -1,18 +1,78 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Login.css'
+import { Link } from 'react-router-dom';
+
+const initFormValue = {
+  email: "",
+  password: ""
+}
+const isEmptyValue = (value) => {
+  return !value || value.trim().length < 1;
+}
+
 
 export default function Login() {
-  return (
 
+  const [FormValue, setFormValue] = useState(initFormValue)
+  // validate
+  const [FormError, setFormError] = useState({});
+  const validateForm = () => {
+    const error = {};
+    if (isEmptyValue(FormValue.email)) {
+      error["email"] = "Enter Email";
+    }
+
+    if (isEmptyValue(FormValue.password)) {
+      error["password"] = " Enter Password ";
+    }
+
+    setFormError(error)
+    return Object.keys(error).length === 0
+  };
+
+  const handleChange = (event) => {
+    const { value, name } = event.target;
+    setFormValue({
+      ...FormValue,
+      [name]: value,
+    }
+    );
+  }
+  // const handleChangepassword = (event) => {
+  //   const { value } = event.target;
+  //   setFormValue({
+  //     ...FormValue,
+  //     password: value,
+  //   }
+  //   );
+  // }
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    if (validateForm()) {
+      console.log("form value", FormValue)
+    } else {
+      console.log("form invalis", FormValue)
+    }
+    console.log("form value", FormValue);
+  }
+  console.log(FormError);
+  return (
     <div className="container-1">
       <div className="heading text-black">Sign In</div>
-      <form action="" className="form">
-        <input required="" className="input" type="email" name="email" id="email" placeholder="E-mail" />
-        <input required="" className="input" type="password" name="password" id="password" placeholder="Password" />
+      <form onSubmit={handleSubmit} action="" className="form" id="form-register">
+        <input required="" onChange={handleChange} value={FormValue.email} className="input" type="email" name="email" id="email" placeholder="E-mail" />
+        {FormError.email && (
+          <div style={{ color: 'red' }} className='error-feedback'>{FormError.email}</div>
+        )}
+        <input required="" onChange={handleChange} value={FormValue.password} className="input" type="password" name="password" id="password" placeholder="Password" />
+        {FormError.password && (
+          <div style={{ color: 'red' }} className='error-feedback'>{FormError.password}</div>
+        )}
         <span className="forgot-password"><a href="#">Forgot Password ?</a></span>
-        <input className="login-button" type="submit" value="Sign In" />
-
-      </form>
+        {/* <input className="login-button" type="submit" value="Sign In" /> */}
+        <button className="login-button" type="submit" value="Sign In" >Sign In</button>
+        <Link to={'/register'} className="login-button" >Register</Link >
+      </form >
       <div className="social-account-container">
         <span className="title">Or Sign in with</span>
         <div className="social-accounts">

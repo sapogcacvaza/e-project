@@ -11,7 +11,7 @@ import Footer from './components/footer';
 import CategoryShop from './components/categoryShop/categoryShop';
 import Contact from './components/contact_us/contact';
 import Help from './components/help/help';
-
+import Register from './components/register/register';
 function App() {
   return (
     <div className="App">
@@ -27,6 +27,7 @@ function App() {
         <Route path='/help' element={<Help />} />
         <Route path="shop/category/:categoryId" element={<CategoryShop />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/register' element={<Register />} />
       </Routes>
       <Footer />
     </div>

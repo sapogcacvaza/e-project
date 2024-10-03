@@ -49,14 +49,16 @@ export default function Search1() {
 
     return (
         <>
-            <div className="container-fluid fruite py-5">
-                <div className="container py-5">
-                    <div className="row g-4 py-6">
-                        <div className="col-lg-12 py-6">
-                            <div className="row g-4">
-                                <div className="col-lg-12">
-                                    <div className="row g-4 justify-content-center">
-                                        <Search2 name={name} />
+            <div className="search-cin">
+                <div className="container-fluid fruite">
+                    <div className="container">
+                        <div className="row g-4">
+                            <div className="col-lg-12">
+                                <div className="row g-4">
+                                    <div className="col-lg-12">
+                                        <div className="row g-4 justify-content-center">
+                                            <Search2 name={name} />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
