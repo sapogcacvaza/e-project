@@ -27,7 +27,9 @@ export default function Register() {
     }
 
     if (isEmptyValue(FormValue.password)) {
-      error["password"] = " Enter Password ";
+      error["password"] = "Enter Password";
+    } else if (FormValue.password.length < 6) {
+      error["password"] = "Password must be at least 6 characters";
     }
     if (isEmptyValue(FormValue.confirmPassword)) {
       error["confirmPassword"] = " Enter confirmPassword ";

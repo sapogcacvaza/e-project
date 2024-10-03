@@ -25,7 +25,9 @@ export default function Login() {
     }
 
     if (isEmptyValue(FormValue.password)) {
-      error["password"] = " Enter Password ";
+      error["password"] = "Enter Password";
+    } else if (FormValue.password.length < 6) {
+      error["password"] = "Password must be at least 6 characters";
     }
 
     setFormError(error)
@@ -68,7 +70,7 @@ export default function Login() {
     <div className="container-1">
       <div className="heading text-black">Sign In</div>
       <form onSubmit={handleSubmit} action="" className="form" id="form-register">
-        <input required="" onChange={handleChange} value={FormValue.email} className="input" type="email" name="email" id="email" placeholder="E-mail" />
+        <input required="" onChange={handleChange} value={FormValue.email} className="input" type="" name="email" id="email" placeholder="E-mail" />
         {FormError.email && (
           <div style={{ color: 'red' }} className='error-feedback'>{FormError.email}</div>
         )}
